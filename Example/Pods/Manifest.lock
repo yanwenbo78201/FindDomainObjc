@@ -1,0 +1,16 @@
+PODS:
+  - FindDomainObjc (0.1.0)
+
+DEPENDENCIES:
+  - FindDomainObjc (from `../`)
+
+EXTERNAL SOURCES:
+  FindDomainObjc:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FindDomainObjc: 4f55e5f7391d38b08bd09f2caa7d08a45223262d
+
+PODFILE CHECKSUM: d4b571f2d2b321720c8eebdd02468de0b6d7c45f
+
+COCOAPODS: 1.16.2

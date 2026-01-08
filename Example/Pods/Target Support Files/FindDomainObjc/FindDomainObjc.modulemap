@@ -1,0 +1,6 @@
+framework module FindDomainObjc {
+  umbrella header "FindDomainObjc-umbrella.h"
+
+  export *
+  module * { export * }
+}

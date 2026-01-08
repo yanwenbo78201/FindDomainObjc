@@ -1,0 +1,22 @@
+{
+  "name": "FindDomainObjc",
+  "version": "0.1.0",
+  "summary": "A short description of FindDomainObjc.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Computer/FindDomainObjc",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Computer": "yanwenbo@Computer.com"
+  },
+  "source": {
+    "git": "https://github.com/Computer/FindDomainObjc.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "FindDomainObjc/Classes/**/*"
+}
