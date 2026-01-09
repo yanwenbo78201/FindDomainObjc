@@ -30,13 +30,14 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'FindDomainObjc/Classes/**/*'
+  s.source_files = 'FindDomainObjc/Classes/**/*.{h,m,swift}'
+  s.exclude_files = 'FindDomainObjc/Classes/SwiftUsageExample.swift'
   
   # s.resource_bundles = {
   #   'FindDomainObjc' => ['FindDomainObjc/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'FindDomainObjc/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Reachability'
 end
