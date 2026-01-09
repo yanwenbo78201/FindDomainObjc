@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "FindDomainObjc/Classes/**/*"
+  "source_files": "FindDomainObjc/Classes/**/*.{h,m,swift}",
+  "exclude_files": "FindDomainObjc/Classes/SwiftUsageExample.swift",
+  "public_header_files": "FindDomainObjc/Classes/**/*.h",
+  "dependencies": {
+    "Reachability": []
+  }
 }

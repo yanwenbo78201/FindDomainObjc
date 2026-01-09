@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CDB985DA45A2CBCFB03415D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		1EE387730E70FFE5CA6AADB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1CDB985DA45A2CBCFB03415D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1EE387730E70FFE5CA6AADB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		25E4C7ED57C74D46BFAE7A92 /* Pods-FindDomainObjc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindDomainObjc_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FindDomainObjc_Tests/Pods-FindDomainObjc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		328AC8DC666ABCB53875F479 /* Pods-FindDomainObjc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindDomainObjc_Example.debug.xcconfig"; path = "Target Support Files/Pods-FindDomainObjc_Example/Pods-FindDomainObjc_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4BC6F13B119A937108C65A3A /* Pods_FindDomainObjc_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindDomainObjc_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +66,7 @@
 		9E9536F6789A604B135426E3 /* Pods_FindDomainObjc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindDomainObjc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7505E6BC1A93F6FC18D03E9 /* Pods-FindDomainObjc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindDomainObjc_Tests.release.xcconfig"; path = "Target Support Files/Pods-FindDomainObjc_Tests/Pods-FindDomainObjc_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BE1232F3B09C2170D1D6C13B /* Pods-FindDomainObjc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindDomainObjc_Example.release.xcconfig"; path = "Target Support Files/Pods-FindDomainObjc_Example/Pods-FindDomainObjc_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C5A96BF532F6029F8EBD7A1D /* FindDomainObjc.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FindDomainObjc.podspec; path = ../FindDomainObjc.podspec; sourceTree = "<group>"; };
+		C5A96BF532F6029F8EBD7A1D /* FindDomainObjc.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FindDomainObjc.podspec; path = ../FindDomainObjc.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				25E4C7ED57C74D46BFAE7A92 /* Pods-FindDomainObjc_Tests.debug.xcconfig */,
 				B7505E6BC1A93F6FC18D03E9 /* Pods-FindDomainObjc_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -303,10 +303,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FindDomainObjc_Example/Pods-FindDomainObjc_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FindDomainObjc/FindDomainObjc.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FindDomainObjc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

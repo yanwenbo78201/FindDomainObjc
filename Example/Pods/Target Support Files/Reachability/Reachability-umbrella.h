@@ -10,9 +10,8 @@
 #endif
 #endif
 
-#import "FindDomainConfig.h"
-#import "FindDomainObjc.h"
+#import "Reachability.h"
 
-FOUNDATION_EXPORT double FindDomainObjcVersionNumber;
-FOUNDATION_EXPORT const unsigned char FindDomainObjcVersionString[];
+FOUNDATION_EXPORT double ReachabilityVersionNumber;
+FOUNDATION_EXPORT const unsigned char ReachabilityVersionString[];
 
