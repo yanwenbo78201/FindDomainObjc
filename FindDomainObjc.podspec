@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Computer/FindDomainObjc'
+  s.homepage         = 'https://github.com/yanwenbo78201/FindDomainObjc'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Computer' => 'yanwenbo@Computer.com' }
-  s.source           = { :git => 'https://github.com/Computer/FindDomainObjc.git', :tag => s.version.to_s }
+  s.author           = { 'Computer' => 'yanwenbo78201@gmail.com' }
+  s.source           = { :git => 'https://github.com/yanwenbo78201/FindDomainObjc.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '15.0'
 
   s.source_files = 'FindDomainObjc/Classes/**/*.{h,m,swift}'
   s.exclude_files = 'FindDomainObjc/Classes/SwiftUsageExample.swift'

@@ -70,15 +70,15 @@
 		1EBD4529BB582B2993CF649B74FA21A8 /* Pods-FindDomainObjc_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FindDomainObjc_Example.modulemap"; sourceTree = "<group>"; };
 		2336FE9E8FC7DC032303F2C70E3695A9 /* FindDomainObjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FindDomainObjc.m; path = FindDomainObjc/Classes/FindDomainObjc.m; sourceTree = "<group>"; };
 		2ADEA2CF1ED1CDD085FC403421B4EAC7 /* Reachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Reachability.modulemap; sourceTree = "<group>"; };
-		3387966836CD59D63DC82057F09A43E2 /* FindDomainObjc */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FindDomainObjc; path = FindDomainObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3387966836CD59D63DC82057F09A43E2 /* FindDomainObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FindDomainObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		346951A11D2AA4786174C03348C61AD2 /* FindDomainConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FindDomainConfig.h; path = FindDomainObjc/Classes/FindDomainConfig.h; sourceTree = "<group>"; };
 		36FFFC713B5FC967043A1911053894CD /* FindDomainObjc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FindDomainObjc-Info.plist"; sourceTree = "<group>"; };
-		400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40AFFAA2B0FF2EDC681FF7112D2EAD99 /* Pods-FindDomainObjc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindDomainObjc_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4CC9F67269B379A7F95C91F74EAE4038 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4CC9F67269B379A7F95C91F74EAE4038 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5EC5398DC48E95E88E8E9AEFEC0B44FC /* FindDomainObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FindDomainObjc.h; path = FindDomainObjc/Classes/FindDomainObjc.h; sourceTree = "<group>"; };
 		5F571DF82ACEC55272BF6358B590013A /* Pods-FindDomainObjc_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FindDomainObjc_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		657301237C137A95CEB59B5019599D1D /* Pods-FindDomainObjc_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FindDomainObjc_Tests"; path = Pods_FindDomainObjc_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		657301237C137A95CEB59B5019599D1D /* Pods_FindDomainObjc_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindDomainObjc_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67DFDAB3188F8303BA5A3A91FA96FABD /* FindDomainObjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FindDomainObjc.modulemap; sourceTree = "<group>"; };
 		7315D5A87823627CE5AD29E7931C7778 /* FindDomainObjc+Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FindDomainObjc+Swift.swift"; path = "FindDomainObjc/Classes/FindDomainObjc+Swift.swift"; sourceTree = "<group>"; };
 		7561A86BD3EFB77ACDBF78B1657902BF /* Reachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-umbrella.h"; sourceTree = "<group>"; };
@@ -89,10 +89,10 @@
 		9487795E890AAC4F9EB14CF011926214 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		9493BF0A3F11EE209B56A45141CAE488 /* Pods-FindDomainObjc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindDomainObjc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9648E2BC2988B71AAE75964BA7B4109E /* Pods-FindDomainObjc_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FindDomainObjc_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2BAB9169D2F9B69583D892095B3C055 /* Pods-FindDomainObjc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindDomainObjc_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A3B9BD78F61B7DFE2984A2E345047413 /* Reachability.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.debug.xcconfig; sourceTree = "<group>"; };
-		A669B436DE8CC3D981D814D222D65B9E /* FindDomainObjc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FindDomainObjc.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A669B436DE8CC3D981D814D222D65B9E /* FindDomainObjc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FindDomainObjc.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		AAD323C6821AFCD01EB43C727A2D1C5C /* Pods-FindDomainObjc_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FindDomainObjc_Example-frameworks.sh"; sourceTree = "<group>"; };
 		ABA06F5BE106FF0F6374781EE6B9FE58 /* Pods-FindDomainObjc_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FindDomainObjc_Example-dummy.m"; sourceTree = "<group>"; };
 		B2EF3547ED3052696BF887E28AC26F96 /* FindDomainObjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FindDomainObjc-prefix.pch"; sourceTree = "<group>"; };
@@ -101,9 +101,9 @@
 		C0EE2DE217A3D01A535EDC65D2B2D37C /* FindDomainObjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FindDomainObjc-dummy.m"; sourceTree = "<group>"; };
 		CD681A39710155E4B8108CAD439D54B0 /* Reachability-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Reachability-Info.plist"; sourceTree = "<group>"; };
 		D2377BB6883D1414307E9001672F1519 /* Pods-FindDomainObjc_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FindDomainObjc_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E1E233FB1CA270B8DE012FB2C0D6119C /* Pods-FindDomainObjc_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FindDomainObjc_Example"; path = Pods_FindDomainObjc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E233FB1CA270B8DE012FB2C0D6119C /* Pods_FindDomainObjc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindDomainObjc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E318BE898462AA263843EF688A85EB3E /* Pods-FindDomainObjc_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FindDomainObjc_Example-Info.plist"; sourceTree = "<group>"; };
-		E3DDCCB0BAD0A7320E566E4D09C3B191 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E3DDCCB0BAD0A7320E566E4D09C3B191 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EAD4420AAF00AB4766027915C773E54E /* FindDomainConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FindDomainConfig.m; path = FindDomainObjc/Classes/FindDomainConfig.m; sourceTree = "<group>"; };
 		ED0D231DB29D3B6B558743C246A76299 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
 		F0C52528A179261F567FE940E5F7362F /* Pods-FindDomainObjc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FindDomainObjc_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -218,10 +218,10 @@
 		4D57BC2F73799AB2849E8412B26CD9DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3387966836CD59D63DC82057F09A43E2 /* FindDomainObjc */,
-				E1E233FB1CA270B8DE012FB2C0D6119C /* Pods-FindDomainObjc_Example */,
-				657301237C137A95CEB59B5019599D1D /* Pods-FindDomainObjc_Tests */,
-				400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability */,
+				3387966836CD59D63DC82057F09A43E2 /* FindDomainObjc.framework */,
+				E1E233FB1CA270B8DE012FB2C0D6119C /* Pods_FindDomainObjc_Example.framework */,
+				657301237C137A95CEB59B5019599D1D /* Pods_FindDomainObjc_Tests.framework */,
+				400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -258,7 +258,6 @@
 				9487795E890AAC4F9EB14CF011926214 /* Reachability.m */,
 				A28CE785BCDC1553568F32CB31B3B314 /* Support Files */,
 			);
-			name = Reachability;
 			path = Reachability;
 			sourceTree = "<group>";
 		};
@@ -370,7 +369,7 @@
 			);
 			name = "Pods-FindDomainObjc_Example";
 			productName = Pods_FindDomainObjc_Example;
-			productReference = E1E233FB1CA270B8DE012FB2C0D6119C /* Pods-FindDomainObjc_Example */;
+			productReference = E1E233FB1CA270B8DE012FB2C0D6119C /* Pods_FindDomainObjc_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		412B24BA32A7F8E2FB42864EDC25999B /* FindDomainObjc */ = {
@@ -389,7 +388,7 @@
 			);
 			name = FindDomainObjc;
 			productName = FindDomainObjc;
-			productReference = 3387966836CD59D63DC82057F09A43E2 /* FindDomainObjc */;
+			productReference = 3387966836CD59D63DC82057F09A43E2 /* FindDomainObjc.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B0FC528781FDCD82F400E50337A141F8 /* Pods-FindDomainObjc_Tests */ = {
@@ -408,7 +407,7 @@
 			);
 			name = "Pods-FindDomainObjc_Tests";
 			productName = Pods_FindDomainObjc_Tests;
-			productReference = 657301237C137A95CEB59B5019599D1D /* Pods-FindDomainObjc_Tests */;
+			productReference = 657301237C137A95CEB59B5019599D1D /* Pods_FindDomainObjc_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */ = {
@@ -426,7 +425,7 @@
 			);
 			name = Reachability;
 			productName = Reachability;
-			productReference = 400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability */;
+			productReference = 400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -447,8 +446,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 4D57BC2F73799AB2849E8412B26CD9DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -721,8 +718,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
